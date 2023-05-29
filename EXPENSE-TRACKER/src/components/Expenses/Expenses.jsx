@@ -20,7 +20,7 @@ const Expenses = (props) => {
   });
 
   if (filteredExpenses.length === 0) {
-    filteredExpenses = <p>NO ITEMS</p>
+    filteredExpenses = <p>NO ITEMS </p>
     console.log(filteredExpenses)
 
   }
